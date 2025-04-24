@@ -1,0 +1,25 @@
+[0.488s] Invoking command in '/home/citc-26/Desktop/anand/ros2_ws/src/camera_processing': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/citc-26/Desktop/anand/ros2_ws/build/camera_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/citc-26/Desktop/anand/ros2_ws/install/camera_processing/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_processing build --build-base /home/citc-26/Desktop/anand/ros2_ws/build/camera_processing/build install --record /home/citc-26/Desktop/anand/ros2_ws/build/camera_processing/install.log --single-version-externally-managed install_data
+[0.595s] /home/citc-26/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.595s]   warnings.warn(msg)
+[0.657s] running egg_info
+[0.667s] writing ../../build/camera_processing/camera_processing.egg-info/PKG-INFO
+[0.667s] writing dependency_links to ../../build/camera_processing/camera_processing.egg-info/dependency_links.txt
+[0.668s] writing entry points to ../../build/camera_processing/camera_processing.egg-info/entry_points.txt
+[0.668s] writing requirements to ../../build/camera_processing/camera_processing.egg-info/requires.txt
+[0.668s] writing top-level names to ../../build/camera_processing/camera_processing.egg-info/top_level.txt
+[0.689s] reading manifest file '../../build/camera_processing/camera_processing.egg-info/SOURCES.txt'
+[0.690s] writing manifest file '../../build/camera_processing/camera_processing.egg-info/SOURCES.txt'
+[0.690s] running build
+[0.690s] running build_py
+[0.691s] running install
+[0.694s] running install_lib
+[0.704s] running install_data
+[0.705s] creating /home/citc-26/Desktop/anand/ros2_ws/install/camera_processing/share/camera_processing/resources
+[0.705s] running install_egg_info
+[0.716s] removing '/home/citc-26/Desktop/anand/ros2_ws/install/camera_processing/lib/python3.10/site-packages/camera_processing-0.0.0-py3.10.egg-info' (and everything under it)
+[0.716s] Copying ../../build/camera_processing/camera_processing.egg-info to /home/citc-26/Desktop/anand/ros2_ws/install/camera_processing/lib/python3.10/site-packages/camera_processing-0.0.0-py3.10.egg-info
+[0.716s] running install_scripts
+[0.790s] Installing dummy_usb_cam script to /home/citc-26/Desktop/anand/ros2_ws/install/camera_processing/lib/camera_processing
+[0.790s] Installing image_conversion script to /home/citc-26/Desktop/anand/ros2_ws/install/camera_processing/lib/camera_processing
+[0.791s] writing list of installed files to '/home/citc-26/Desktop/anand/ros2_ws/build/camera_processing/install.log'
+[0.807s] Invoked command in '/home/citc-26/Desktop/anand/ros2_ws/src/camera_processing' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/citc-26/Desktop/anand/ros2_ws/build/camera_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/citc-26/Desktop/anand/ros2_ws/install/camera_processing/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_processing build --build-base /home/citc-26/Desktop/anand/ros2_ws/build/camera_processing/build install --record /home/citc-26/Desktop/anand/ros2_ws/build/camera_processing/install.log --single-version-externally-managed install_data

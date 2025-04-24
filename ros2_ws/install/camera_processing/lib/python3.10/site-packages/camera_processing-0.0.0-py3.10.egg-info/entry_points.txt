@@ -1,0 +1,3 @@
+[console_scripts]
+dummy_usb_cam = camera_processing.dummy_usb_cam_node:main
+image_conversion = camera_processing.image_conversion_node:main

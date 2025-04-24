@@ -1,0 +1,46 @@
+running egg_info
+creating ../../build/camera_processing/camera_processing.egg-info
+writing ../../build/camera_processing/camera_processing.egg-info/PKG-INFO
+writing dependency_links to ../../build/camera_processing/camera_processing.egg-info/dependency_links.txt
+writing entry points to ../../build/camera_processing/camera_processing.egg-info/entry_points.txt
+writing requirements to ../../build/camera_processing/camera_processing.egg-info/requires.txt
+writing top-level names to ../../build/camera_processing/camera_processing.egg-info/top_level.txt
+writing manifest file '../../build/camera_processing/camera_processing.egg-info/SOURCES.txt'
+reading manifest file '../../build/camera_processing/camera_processing.egg-info/SOURCES.txt'
+writing manifest file '../../build/camera_processing/camera_processing.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nambiar/mowito/ros_ws/build/camera_processing/build
+creating /home/nambiar/mowito/ros_ws/build/camera_processing/build/lib
+creating /home/nambiar/mowito/ros_ws/build/camera_processing/build/lib/camera_processing
+copying camera_processing/utilities.py -> /home/nambiar/mowito/ros_ws/build/camera_processing/build/lib/camera_processing
+copying camera_processing/dummy_usb_cam_node.py -> /home/nambiar/mowito/ros_ws/build/camera_processing/build/lib/camera_processing
+copying camera_processing/__init__.py -> /home/nambiar/mowito/ros_ws/build/camera_processing/build/lib/camera_processing
+copying camera_processing/image_conversion_node.py -> /home/nambiar/mowito/ros_ws/build/camera_processing/build/lib/camera_processing
+running install
+running install_lib
+creating /home/nambiar/mowito/ros_ws/install/camera_processing/lib/python3.10/site-packages/camera_processing
+copying /home/nambiar/mowito/ros_ws/build/camera_processing/build/lib/camera_processing/utilities.py -> /home/nambiar/mowito/ros_ws/install/camera_processing/lib/python3.10/site-packages/camera_processing
+copying /home/nambiar/mowito/ros_ws/build/camera_processing/build/lib/camera_processing/dummy_usb_cam_node.py -> /home/nambiar/mowito/ros_ws/install/camera_processing/lib/python3.10/site-packages/camera_processing
+copying /home/nambiar/mowito/ros_ws/build/camera_processing/build/lib/camera_processing/__init__.py -> /home/nambiar/mowito/ros_ws/install/camera_processing/lib/python3.10/site-packages/camera_processing
+copying /home/nambiar/mowito/ros_ws/build/camera_processing/build/lib/camera_processing/image_conversion_node.py -> /home/nambiar/mowito/ros_ws/install/camera_processing/lib/python3.10/site-packages/camera_processing
+byte-compiling /home/nambiar/mowito/ros_ws/install/camera_processing/lib/python3.10/site-packages/camera_processing/utilities.py to utilities.cpython-310.pyc
+byte-compiling /home/nambiar/mowito/ros_ws/install/camera_processing/lib/python3.10/site-packages/camera_processing/dummy_usb_cam_node.py to dummy_usb_cam_node.cpython-310.pyc
+byte-compiling /home/nambiar/mowito/ros_ws/install/camera_processing/lib/python3.10/site-packages/camera_processing/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/nambiar/mowito/ros_ws/install/camera_processing/lib/python3.10/site-packages/camera_processing/image_conversion_node.py to image_conversion_node.cpython-310.pyc
+running install_data
+creating /home/nambiar/mowito/ros_ws/install/camera_processing/share/ament_index
+creating /home/nambiar/mowito/ros_ws/install/camera_processing/share/ament_index/resource_index
+creating /home/nambiar/mowito/ros_ws/install/camera_processing/share/ament_index/resource_index/packages
+copying resource/camera_processing -> /home/nambiar/mowito/ros_ws/install/camera_processing/share/ament_index/resource_index/packages
+copying package.xml -> /home/nambiar/mowito/ros_ws/install/camera_processing/share/camera_processing
+creating /home/nambiar/mowito/ros_ws/install/camera_processing/share/camera_processing/launch
+copying launch/test.launch.py -> /home/nambiar/mowito/ros_ws/install/camera_processing/share/camera_processing/launch
+copying launch/camera_processing.launch.py -> /home/nambiar/mowito/ros_ws/install/camera_processing/share/camera_processing/launch
+creating /home/nambiar/mowito/ros_ws/install/camera_processing/share/camera_processing/resources
+running install_egg_info
+Copying ../../build/camera_processing/camera_processing.egg-info to /home/nambiar/mowito/ros_ws/install/camera_processing/lib/python3.10/site-packages/camera_processing-0.0.0-py3.10.egg-info
+running install_scripts
+Installing dummy_usb_cam script to /home/nambiar/mowito/ros_ws/install/camera_processing/lib/camera_processing
+Installing image_conversion script to /home/nambiar/mowito/ros_ws/install/camera_processing/lib/camera_processing
+writing list of installed files to '/home/nambiar/mowito/ros_ws/build/camera_processing/install.log'

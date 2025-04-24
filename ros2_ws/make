@@ -1,0 +1,22 @@
+cd ~/ros2_ws
+colcon build --packages-select camera_processing
+source install/setup.bash
+
+ros2 launch camera_processing camera_processing.launch.py
+
+# Switch to grayscale
+ros2 service call /set_grayscale std_srvs/srv/SetBool "{data: true}"
+
+# Switch back to color
+ros2 service call /set_grayscale std_srvs/srv/SetBool "{data: false}"
+
+# Install image tools if needed
+sudo apt install ros-<distro>-image-tools
+
+# View original image
+ros2 run image_tools showimage --ros-args --remap image:=/image_raw
+
+# View converted image
+ros2 run image_tools showimage --ros-args --remap image:=/converted_image
+
+	

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/task.dir/bt.cpp.o -o task  -lbehaviortree_cpp 

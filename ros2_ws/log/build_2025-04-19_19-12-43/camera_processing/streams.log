@@ -1,0 +1,48 @@
+[0.840s] Invoking command in '/home/nambiar/mowito/ros_ws/src/camera_processing': PYTHONPATH=/home/nambiar/mowito/ros_ws/build/camera_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nambiar/mowito/ros_ws/install/camera_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_processing build --build-base /home/nambiar/mowito/ros_ws/build/camera_processing/build install --record /home/nambiar/mowito/ros_ws/build/camera_processing/install.log --single-version-externally-managed install_data
+[1.160s] running egg_info
+[1.160s] creating ../../build/camera_processing/camera_processing.egg-info
+[1.160s] writing ../../build/camera_processing/camera_processing.egg-info/PKG-INFO
+[1.161s] writing dependency_links to ../../build/camera_processing/camera_processing.egg-info/dependency_links.txt
+[1.161s] writing entry points to ../../build/camera_processing/camera_processing.egg-info/entry_points.txt
+[1.161s] writing requirements to ../../build/camera_processing/camera_processing.egg-info/requires.txt
+[1.161s] writing top-level names to ../../build/camera_processing/camera_processing.egg-info/top_level.txt
+[1.161s] writing manifest file '../../build/camera_processing/camera_processing.egg-info/SOURCES.txt'
+[1.163s] reading manifest file '../../build/camera_processing/camera_processing.egg-info/SOURCES.txt'
+[1.164s] writing manifest file '../../build/camera_processing/camera_processing.egg-info/SOURCES.txt'
+[1.164s] running build
+[1.164s] running build_py
+[1.164s] creating /home/nambiar/mowito/ros_ws/build/camera_processing/build
+[1.164s] creating /home/nambiar/mowito/ros_ws/build/camera_processing/build/lib
+[1.165s] creating /home/nambiar/mowito/ros_ws/build/camera_processing/build/lib/camera_processing
+[1.165s] copying camera_processing/utilities.py -> /home/nambiar/mowito/ros_ws/build/camera_processing/build/lib/camera_processing
+[1.165s] copying camera_processing/dummy_usb_cam_node.py -> /home/nambiar/mowito/ros_ws/build/camera_processing/build/lib/camera_processing
+[1.165s] copying camera_processing/__init__.py -> /home/nambiar/mowito/ros_ws/build/camera_processing/build/lib/camera_processing
+[1.165s] copying camera_processing/image_conversion_node.py -> /home/nambiar/mowito/ros_ws/build/camera_processing/build/lib/camera_processing
+[1.165s] running install
+[1.165s] running install_lib
+[1.166s] creating /home/nambiar/mowito/ros_ws/install/camera_processing/lib/python3.10/site-packages/camera_processing
+[1.166s] copying /home/nambiar/mowito/ros_ws/build/camera_processing/build/lib/camera_processing/utilities.py -> /home/nambiar/mowito/ros_ws/install/camera_processing/lib/python3.10/site-packages/camera_processing
+[1.167s] copying /home/nambiar/mowito/ros_ws/build/camera_processing/build/lib/camera_processing/dummy_usb_cam_node.py -> /home/nambiar/mowito/ros_ws/install/camera_processing/lib/python3.10/site-packages/camera_processing
+[1.167s] copying /home/nambiar/mowito/ros_ws/build/camera_processing/build/lib/camera_processing/__init__.py -> /home/nambiar/mowito/ros_ws/install/camera_processing/lib/python3.10/site-packages/camera_processing
+[1.167s] copying /home/nambiar/mowito/ros_ws/build/camera_processing/build/lib/camera_processing/image_conversion_node.py -> /home/nambiar/mowito/ros_ws/install/camera_processing/lib/python3.10/site-packages/camera_processing
+[1.167s] byte-compiling /home/nambiar/mowito/ros_ws/install/camera_processing/lib/python3.10/site-packages/camera_processing/utilities.py to utilities.cpython-310.pyc
+[1.168s] byte-compiling /home/nambiar/mowito/ros_ws/install/camera_processing/lib/python3.10/site-packages/camera_processing/dummy_usb_cam_node.py to dummy_usb_cam_node.cpython-310.pyc
+[1.169s] byte-compiling /home/nambiar/mowito/ros_ws/install/camera_processing/lib/python3.10/site-packages/camera_processing/__init__.py to __init__.cpython-310.pyc
+[1.169s] byte-compiling /home/nambiar/mowito/ros_ws/install/camera_processing/lib/python3.10/site-packages/camera_processing/image_conversion_node.py to image_conversion_node.cpython-310.pyc
+[1.169s] running install_data
+[1.170s] creating /home/nambiar/mowito/ros_ws/install/camera_processing/share/ament_index
+[1.170s] creating /home/nambiar/mowito/ros_ws/install/camera_processing/share/ament_index/resource_index
+[1.170s] creating /home/nambiar/mowito/ros_ws/install/camera_processing/share/ament_index/resource_index/packages
+[1.170s] copying resource/camera_processing -> /home/nambiar/mowito/ros_ws/install/camera_processing/share/ament_index/resource_index/packages
+[1.170s] copying package.xml -> /home/nambiar/mowito/ros_ws/install/camera_processing/share/camera_processing
+[1.170s] creating /home/nambiar/mowito/ros_ws/install/camera_processing/share/camera_processing/launch
+[1.170s] copying launch/test.launch.py -> /home/nambiar/mowito/ros_ws/install/camera_processing/share/camera_processing/launch
+[1.170s] copying launch/camera_processing.launch.py -> /home/nambiar/mowito/ros_ws/install/camera_processing/share/camera_processing/launch
+[1.170s] creating /home/nambiar/mowito/ros_ws/install/camera_processing/share/camera_processing/resources
+[1.170s] running install_egg_info
+[1.172s] Copying ../../build/camera_processing/camera_processing.egg-info to /home/nambiar/mowito/ros_ws/install/camera_processing/lib/python3.10/site-packages/camera_processing-0.0.0-py3.10.egg-info
+[1.174s] running install_scripts
+[1.196s] Installing dummy_usb_cam script to /home/nambiar/mowito/ros_ws/install/camera_processing/lib/camera_processing
+[1.196s] Installing image_conversion script to /home/nambiar/mowito/ros_ws/install/camera_processing/lib/camera_processing
+[1.197s] writing list of installed files to '/home/nambiar/mowito/ros_ws/build/camera_processing/install.log'
+[1.224s] Invoked command in '/home/nambiar/mowito/ros_ws/src/camera_processing' returned '0': PYTHONPATH=/home/nambiar/mowito/ros_ws/build/camera_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nambiar/mowito/ros_ws/install/camera_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_processing build --build-base /home/nambiar/mowito/ros_ws/build/camera_processing/build install --record /home/nambiar/mowito/ros_ws/build/camera_processing/install.log --single-version-externally-managed install_data
