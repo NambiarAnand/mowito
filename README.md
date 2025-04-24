@@ -46,7 +46,7 @@ ros2 service call /set_grayscale std_srvs/srv/SetBool "{data: true}"
 ros2 service call /set_grayscale std_srvs/srv/SetBool "{data: false}"
 
 # Install image tools if needed
-sudo apt install ros-<distro>-image-tools
+sudo apt install ros-humble-image-tools
 
 # View original image
 ros2 run image_tools showimage --ros-args --remap image:=/image_raw
